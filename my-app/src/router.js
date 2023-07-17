@@ -11,6 +11,9 @@ import StateHighOne from "./useState/highone";
 import StateHighThree from "./useState/highthree";
 import StateHighTwo from "./useState/hightwo";
 import ReducerBasicCaseTwo from "./useReducer/reducer_basic2";
+import ReducerContext from "./useReducer/reducer_context";
+import CallBackCase from "./useCallBack/CallBackCase";
+import MemoCase from "./useMemo/momo_case";
 
 export const router = createHashRouter([
   {
@@ -60,5 +63,17 @@ export const router = createHashRouter([
   {
     path:'case11',
     element: <ReducerBasicCaseTwo/>
+  },
+  {
+    path:'case12',
+    element: <ReducerContext/>
+  },
+  {
+    path:'case13',
+    element: <CallBackCase/>
+  },
+  {
+    path:'case14',
+    element: <MemoCase/>
   },
 ])

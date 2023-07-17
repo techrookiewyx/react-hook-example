@@ -14,6 +14,9 @@ export default function ExpLise() {
       <li><Link to='case9'>useContext高级用法</Link></li>
       <li><Link to='case10'>useReducer基础用法-1</Link></li>
       <li><Link to='case11'>useReducer基础用法-2</Link></li>
+      <li><Link to='case12'>useReducer与useContext结合案例</Link></li>
+      <li><Link to='case13'>useCallBack使用案例</Link></li>
+      <li><Link to='case14'>useMemo使用案例</Link></li>
     </ul>
   )
 }
