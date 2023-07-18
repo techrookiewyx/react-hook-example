@@ -14,6 +14,14 @@ import ReducerBasicCaseTwo from "./useReducer/reducer_basic2";
 import ReducerContext from "./useReducer/reducer_context";
 import CallBackCase from "./useCallBack/CallBackCase";
 import MemoCase from "./useMemo/momo_case";
+import RefBasic from "./useRef/refbasic";
+import RefCaseOne from "./useRef/refcase1";
+import RefCaseTwo from "./useRef/refcase2";
+import RefCaseThree from "./useRef/refcase3";
+import ForWardRefUse from "./useRef/forwardRef";
+import ImpHandlerUse from "./useImperativeHandle/imperative_case";
+import { LayoutEffectCase } from "./useLayoutEffect/layoutcase";
+import DebugValueCase from "./useDebugValue/debugvalue";
 
 export const router = createHashRouter([
   {
@@ -75,5 +83,37 @@ export const router = createHashRouter([
   {
     path:'case14',
     element: <MemoCase/>
+  },
+  {
+    path:'case15',
+    element: <RefBasic/>
+  },
+  {
+    path:'case16',
+    element: <RefCaseOne/>
+  },
+  {
+    path:'case17',
+    element: <RefCaseTwo/>
+  },
+  {
+    path:'case18',
+    element: <RefCaseThree/>
+  },
+  {
+    path:'case19',
+    element: <ForWardRefUse/>
+  },
+  {
+    path:'case20',
+    element: <ImpHandlerUse/>
+  },
+  {
+    path:'case21',
+    element: <LayoutEffectCase/>
+  },
+  {
+    path:'case22',
+    element: <DebugValueCase/>
   },
 ])

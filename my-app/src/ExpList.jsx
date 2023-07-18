@@ -17,6 +17,14 @@ export default function ExpLise() {
       <li><Link to='case12'>useReducer与useContext结合案例</Link></li>
       <li><Link to='case13'>useCallBack使用案例</Link></li>
       <li><Link to='case14'>useMemo使用案例</Link></li>
+      <li><Link to='case15'>useRef简单案例</Link></li>
+      <li><Link to='case16'>useRef使用案例-1</Link></li>
+      <li><Link to='case17'>useRef使用案例-2</Link></li>
+      <li><Link to='case18'>useRef使用案例-3</Link></li>
+      <li><Link to='case19'>forwardRef的使用</Link></li>
+      <li><Link to='case20'>useImperativeHandle使用案例</Link></li>
+      <li><Link to='case21'>useLayoutEffect使用案例</Link></li>
+      <li><Link to='case22'>useDebugValue使用案例</Link></li>
     </ul>
   )
 }
