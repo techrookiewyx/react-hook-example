@@ -25,6 +25,11 @@ export default function ExpLise() {
       <li><Link to='case20'>useImperativeHandle使用案例</Link></li>
       <li><Link to='case21'>useLayoutEffect使用案例</Link></li>
       <li><Link to='case22'>useDebugValue使用案例</Link></li>
+      <li><Link to='case23'>useDeferredValue案例</Link></li>
+      <li><Link to='case24'>useTransition案例</Link></li>
+      <li><Link to='case25'>自定义hook案例-无返回值</Link></li>
+      <li><Link to='case26'>自定义hook案例-带回值</Link></li>
+      <li><Link to='case27'>自定义hook案例-带特殊回值</Link></li>
     </ul>
   )
 }

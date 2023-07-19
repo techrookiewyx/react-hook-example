@@ -22,6 +22,11 @@ import ForWardRefUse from "./useRef/forwardRef";
 import ImpHandlerUse from "./useImperativeHandle/imperative_case";
 import { LayoutEffectCase } from "./useLayoutEffect/layoutcase";
 import DebugValueCase from "./useDebugValue/debugvalue";
+import NoReturnCase from "./customHook/noreturn/noreturn";
+import ReturnCase from "./customHook/return/return";
+import ReturnSplCase from "./customHook/return_special/returnspl";
+import DeferValueCase from "./useDeferredValue/deferredvalue";
+import TransitonCase from "./useTransition/transition";
 
 export const router = createHashRouter([
   {
@@ -115,5 +120,25 @@ export const router = createHashRouter([
   {
     path:'case22',
     element: <DebugValueCase/>
+  },
+  {
+    path:'case23',
+    element: <DeferValueCase/>
+  },
+  {
+    path:'case24',
+    element: <TransitonCase/>
+  },
+  {
+    path:'case25',
+    element: <NoReturnCase/>
+  },
+  {
+    path:'case26',
+    element: <ReturnCase/>
+  },
+  {
+    path:'case27',
+    element: <ReturnSplCase/>
   },
 ])
